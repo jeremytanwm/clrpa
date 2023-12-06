@@ -320,7 +320,7 @@ public static void capitalandReminder(String sType) {
 			clTicket cl = new clTicket(gDBName);	
 			List<String> sToEach= new LinkedList<>();
 			List<String> sTo= new LinkedList<>();
-			sTo.add("purnama@nttapps.com");
+//			sTo.add("purnama@nttapps.com");
 			sTo.add("weimingjeremy.tan@global.ntt");
 			//sTo.add("purnama.sidhi@global.ntt");
 			
@@ -442,7 +442,7 @@ public static void capitalandReminder(String sType) {
 		// SMTP info
 		
 		String report = "DailyReport";
-//		String report = "WIP";//Testing
+//		String report = "EPA";//Testing
 		if (args!=null) {
     		if (args.length>0) {
     			report=args[0]; 
